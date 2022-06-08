@@ -643,6 +643,57 @@ section#section-2 {
 .card-button-6:hover{
     background-color: #a47d5a;
 }
+section#section-3 {
+    margin-top: 0;
+    height: 1500px;
+    width: 100%;
+    font-family: inherit;
+    background-color: #BD9671;
+    left: 0;
+    right: 0;
+    padding-top: 80px;
+    font-size: 45px;
+    text-align: center;
+}
+.gallery-container {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 1px;
+    row-gap: 50px;
+
+}
+.gallery-photo-1{
+    width: 370px;
+    height: 570px;
+
+}
+.gallery-photo-2{
+    width: 370px;
+    height: 570px;
+
+}
+.gallery-photo-3{
+    width: 370px;
+    height: 570px;
+
+}
+.gallery-photo-4{
+    width: 370px;
+    height: 570px;
+
+}
+.gallery-photo-5{
+    width: 370px;
+    height: 570px;
+
+}
+.gallery-photo-6{
+    width: 370px;
+    height: 570px;
+
+}
 
 
 
