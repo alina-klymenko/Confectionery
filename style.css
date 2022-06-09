@@ -26,7 +26,7 @@ body{
     font-size: 18px;
     display: flex;
     padding-left: 15px;
-    color: #ded6d6;
+    color: #ffffff;
     margin-right: 1050px;
     margin-bottom: 100px;
 
@@ -59,7 +59,7 @@ body{
     position: absolute;
     width: 24px;
     height: 3px;
-    background-color: #ded6d6;
+    background-color: #ffffff;
 }
 .burger-menu_lines{
     position: center;
@@ -113,7 +113,7 @@ body{
     font-size: 50px;
     padding-top: 100px;
     padding-left: 15px;
-    color: #ded6d6;
+    color: #ffffff;
     text-decoration-line: underline;
     text-underline-style: single;
 
@@ -122,12 +122,12 @@ body{
     padding-top: 0px;
     padding-left: 15px;
     font-size: 20px;
-    color: #ded6d6;
+    color: #ffffff;
     margin-bottom: 30px;
 
 }
 .btn{
-    color: #ded6d6;
+    color: #ffffff;
     background-color: #A88361;
     margin-top: 50px;
     margin-left: 15px;
@@ -203,7 +203,7 @@ body{
     margin: 25px auto 0px auto;
     width: 330px;
     padding: 17px 20px;
-    background-color: #ded6d6;
+    background-color: #ffffff;
     border: none;
     font-family: inherit;
     font-weight: 400;
@@ -223,7 +223,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     border: none;
-    color:#ded6d6;
+    color:#ffffff;
     border-radius: 10px;
     background-color: #2D2B2B;
 
@@ -258,11 +258,11 @@ body{
     font-family: Koulen;
     font-style: inherit;
     text-decoration: underline;
-    text-underline-color: #ded6d6;
+    text-underline-color: #ffffff;
     text-transform:uppercase;
     letter-spacing: 5px;
     font-weight: bold;
-    color: #ded6d6;
+    color: #ffffff;
 }
 .burger-menu_link:hover{
     filter: brightness(0.7);
@@ -677,7 +677,6 @@ section#section-3 {
 .gallery-photo-3{
     width: 370px;
     height: 570px;
-
 }
 .gallery-photo-4{
     width: 370px;
@@ -687,18 +686,97 @@ section#section-3 {
 .gallery-photo-5{
     width: 370px;
     height: 570px;
-
 }
 .gallery-photo-6{
     width: 370px;
     height: 570px;
-
 }
 
+section#section-4 {
+    margin-top: 0;
+    height: 800px;
+    width: 100%;
+    font-family: inherit;
+    color: #ffffff;
+    background-color: #2D2B2B;
+    left: 0px;
+    right: 0;
+    padding-top: 80px;
+    padding-left: 150px;
+    font-size: 45px;
+    text-align: left;
 
+}
+.section-title{
+    text-decoration-line: underline;
+    text-underline-style: single;
 
+}
+.contact-form{
+    text-decoration: none;
+    text-underline: none;
+    margin-top: 80px;
+    justify-content: space-between;
+    display: flex;
+}
+.contact-wrapper p{
+    font-size: 20px;
+    color: white;
+    text-underline: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-wrapper input{
+    display: block;
+    margin: 10px 6px 10px 2px;
+    width: 350px;
+    padding: 17px 20px;
+    background-color: #ffffff;
+    border: none;
+    font-family: inherit;
+    font-weight: 400;
+    color:#211f1f;
+}
+.message-box{
+    display: block;
+    margin: 10px 6px 10px 2px;
+    width: 350px;
+    height: 200px;
+    padding: 17px 20px;
+    background-color: #ffffff;
+    border: none;
+    font-family: inherit;
+    font-weight: 400;
+    color:#211f1f;
 
-
-
-
-
+}
+.contact-wrapper form-button{
+    color: #ffffff;
+    background-color: #A88361;
+    margin-top: 50px;
+    margin-left: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 77px;
+    height: 22px;
+    padding:15px 25px;
+}
+.contact-wrapper form-button:hover{
+    background-color: #a47d5a;
+}
+.contact-photo{
+    width: 380px;
+    height: 600px;
+    margin-top: 0px;
+    margin-right:250px;
+}
+.adress-text{
+    font-size: 16px;
+    margin-top: 100px;
+    text-align: center;
+}
+.adress-text p{
+    font-size: 14px;
+}
